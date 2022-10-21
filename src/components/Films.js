@@ -1,4 +1,4 @@
-export const Films = [
+export const films1 = [
     {
         id: 1,
         img : require('../assets/images/game_of_thrones.jpg'),  
@@ -46,8 +46,34 @@ export const Films = [
         year: 2022,
         nation: 'USA',
         description: 'Star Wars (retroactively titled Star Wars: Episode IV – A New Hope) is a 1977 American epic space opera film written and directed by George Lucas, produced by Lucasfilm and distributed by 20th Century Fox. It is the first film in the Star Wars film series and fourth chronological chapter of the "Skywalker Saga". Set "a long time ago" in a fictional universe where the galaxy is ruled by the tyrannical Galactic Empire, the story focuses on a group of freedom fighters known as the Rebel Alliance, who aim to destroy the Empire newest weapon, the Death Star. Luke Skywalker becomes caught in the conflict while learning the ways of a metaphysical power known as "the Force" from Jedi Master Obi-Wan Kenobi. The cast includes Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing, Alec Guinness, David Prowse, James Earl Jones, Anthony Daniels, Kenny Baker, and Peter Mayhew.'     
-    },
-    {
+    }];
+
+    export const films2 = [
+        {
+            id: 4,
+            img : require('../assets/images/star_wars.jpg'),  
+            title: 'Star Wars',
+            year: 2001,
+            nation: 'USA',     
+            description: 'Star Wars (retroactively titled Star Wars: Episode IV – A New Hope) is a 1977 American epic space opera film written and directed by George Lucas, produced by Lucasfilm and distributed by 20th Century Fox. It is the first film in the Star Wars film series and fourth chronological chapter of the "Skywalker Saga". Set "a long time ago" in a fictional universe where the galaxy is ruled by the tyrannical Galactic Empire, the story focuses on a group of freedom fighters known as the Rebel Alliance, who aim to destroy the Empire newest weapon, the Death Star. Luke Skywalker becomes caught in the conflict while learning the ways of a metaphysical power known as "the Force" from Jedi Master Obi-Wan Kenobi. The cast includes Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing, Alec Guinness, David Prowse, James Earl Jones, Anthony Daniels, Kenny Baker, and Peter Mayhew.'  
+        },
+        {
+            id: 5,
+            img : require('../assets/images/jurassic_park.jpg'),  
+            title: 'Jurassic Park',
+            year: 2005,
+            nation: 'USA',
+            description: 'Star Wars (retroactively titled Star Wars: Episode IV – A New Hope) is a 1977 American epic space opera film written and directed by George Lucas, produced by Lucasfilm and distributed by 20th Century Fox. It is the first film in the Star Wars film series and fourth chronological chapter of the "Skywalker Saga". Set "a long time ago" in a fictional universe where the galaxy is ruled by the tyrannical Galactic Empire, the story focuses on a group of freedom fighters known as the Rebel Alliance, who aim to destroy the Empire newest weapon, the Death Star. Luke Skywalker becomes caught in the conflict while learning the ways of a metaphysical power known as "the Force" from Jedi Master Obi-Wan Kenobi. The cast includes Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing, Alec Guinness, David Prowse, James Earl Jones, Anthony Daniels, Kenny Baker, and Peter Mayhew.'     
+        },
+        {
+            id: 6,
+            img : require('../assets/images/minions.jpeg'),  
+            title: 'Minions',
+            year: 2022,
+            nation: 'USA',
+            description: 'Star Wars (retroactively titled Star Wars: Episode IV – A New Hope) is a 1977 American epic space opera film written and directed by George Lucas, produced by Lucasfilm and distributed by 20th Century Fox. It is the first film in the Star Wars film series and fourth chronological chapter of the "Skywalker Saga". Set "a long time ago" in a fictional universe where the galaxy is ruled by the tyrannical Galactic Empire, the story focuses on a group of freedom fighters known as the Rebel Alliance, who aim to destroy the Empire newest weapon, the Death Star. Luke Skywalker becomes caught in the conflict while learning the ways of a metaphysical power known as "the Force" from Jedi Master Obi-Wan Kenobi. The cast includes Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing, Alec Guinness, David Prowse, James Earl Jones, Anthony Daniels, Kenny Baker, and Peter Mayhew.'     
+        },
+        {
         id: 7,
         img : require('../assets/images/how-i-met-your-mother.jpg'),  
         title: 'How I Met Your Mother',

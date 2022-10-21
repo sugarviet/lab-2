@@ -16,7 +16,7 @@ const initialState = {
 }
 const ThemeContext = createContext(initialState)
 
-function ThemeProvider({children}) {
+function ThemeProviderForLighting({children}) {
     const [light, setLight] = useState(false);
 
     useEffect(() => {
@@ -38,4 +38,4 @@ function ThemeProvider({children}) {
      );
 }
 
-export {ThemeProvider, ThemeContext};
+export {ThemeProviderForLighting, ThemeContext};

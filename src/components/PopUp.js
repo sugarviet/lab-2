@@ -1,5 +1,5 @@
 function PopUp({detail, setTogglePopup, togglePopup}) {
-    console.log(detail.img);
+    
     return ( 
         <div className="overlay" onClick={() => {setTogglePopup(!togglePopup)}}>
                 <div className="popup">

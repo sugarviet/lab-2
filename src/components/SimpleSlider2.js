@@ -4,7 +4,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { useState } from "react";
 
-function SimpleSlider() {
+import {Container, Card, Box} from '@mui/material'
+
+function SimpleSlider2() {
     const [state, setState] = useState({
         dots: true,
         infinite: true,
@@ -16,29 +18,31 @@ function SimpleSlider() {
         cssEase: "linear"
     });
     return ( 
-        <div className="slider-content">
-                <Slider {...state}>
-                    <div>
+        <Container maxWidth={false} maxHeight={false} style={{position: 'relative', marginTop: '40px', width: '100%'}}>
+            <Box sx={{height: '500px', overflow: 'hidden'}}>
+                <Slider {...state} className='slider' >
+                    <Box sx={{background: 'transparent'}}>
                         <img className="slider-img"src={require('../assets/images/venom.jpg')}/>
-                    </div>
-                    <div>
+                    </Box>
+                    <Box sx={{background: 'transparent', height: '500px'}}>
                     <img className="slider-img"src={require('../assets/images/peaky_blinders.jpg')}/>
-                    </div>
-                    <div>
+                    </Box>
+                    <Box sx={{background: 'transparent'}}>
                     <img className="slider-img"src={require('../assets/images/dragon-balls.png')}/>
-                    </div>
-                    <div>
+                    </Box>
+                    <Box sx={{background: 'transparent'}}>
                     <img className="slider-img"src={require('../assets/images/stranger-things.jpg')}/>
-                    </div>
-                    <div>
+                    </Box>
+                    <Box sx={{background: 'transparent'}}>
                     <img className="slider-img"src={require('../assets/images/spider-man.jpg')}/>
-                    </div>
-                    <div>
+                    </Box>
+                    <Box sx={{background: 'transparent'}}>
                     <img className="slider-img"src={require('../assets/images/jurassic_park.jpg')}/>
-                    </div>
+                    </Box>
             </Slider>
-        </div>
+            </Box>
+        </Container>
      );
 }
 
-export default SimpleSlider;
+export default SimpleSlider2;
